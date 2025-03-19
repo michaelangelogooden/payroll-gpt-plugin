@@ -11,5 +11,6 @@
     "type": "openapi",
     "url": "https://raw.githubusercontent.com/michaelangelogooden/payroll-gpt-plugin/main/openapi.yaml"
   },
-  "logo_url": "https://YOUR_DOMAIN/payroll_logo.png"
+  "logo_url": "https://raw.githubusercontent.com/michaelangelogooden/payroll-gpt-plugin/main/payroll_logo.png
+"
 }
