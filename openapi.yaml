@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  title: Payroll Processor API
+  version: 1.0.0
+paths:
+  /process:
+    post:
+      summary: Processes payroll files.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                procare_url:
+                  type: string
+                  description: URL of the ProCare file.
+                frankcrum_url:
+                  type: string
+                  description: URL of the FrankCrum file.
+                metadata:
+                  type: object
+                  description: any other metadata
+      responses:
+        '200':
+          description: Successful processing.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  updated_frankcrum_url:
+                    type: string
+                    description: URL of the updated FrankCrum file.
+                  punch_list:
+                    type: array
+                    items:
+                      type: string
+                    description: List of punch list items.
