@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/michaelangelogooden/payroll-gpt-plugin/refs/heads/main/openapi.yaml"
+    "url": "https://raw.githubusercontent.com/michaelangelogooden/payroll-gpt-plugin/openapi.yaml"
   },
   "logo_url": "https://raw.githubusercontent.com/michaelangelogooden/payroll-gpt-plugin/main/payroll_logo.png"
 }
