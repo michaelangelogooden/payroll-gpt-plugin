@@ -2,6 +2,8 @@ openapi: 3.0.0
 info:
   title: Payroll Processor API
   version: 1.0.0
+servers: # Add this section
+  - url: https://your-placeholder-url.com # Replace with a placeholder URL
 paths:
   /process:
     post:
