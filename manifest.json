@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://YOUR_DOMAIN/openapi.yaml"
+    "url": "https://raw.githubusercontent.com/michaelangelogooden/payroll-gpt-plugin/main/openapi.yaml"
   },
   "logo_url": "https://YOUR_DOMAIN/payroll_logo.png"
 }
