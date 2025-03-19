@@ -3,7 +3,7 @@ info:
   title: Payroll Processor API
   version: 1.0.0
 servers:
-  - url: https://micasitapreschool.com/
+  - url: https://example-api.com
 paths:
   /process:
     post:
