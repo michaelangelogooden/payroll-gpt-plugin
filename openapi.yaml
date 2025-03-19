@@ -1,9 +1,9 @@
-openapi: 3.0.0
+openapi: 3.1.0
 info:
   title: Payroll Processor API
   version: 1.0.0
 servers:
-  - url: https://michaelangelogooden.github.io/payroll-gpt-plugin/
+  - url: https://api-dummy.org
 paths:
   /process:
     post:
