@@ -3,7 +3,7 @@ info:
   title: Payroll Processor API
   version: 1.0.0
 servers:
-  - url: https://example-api.com
+  - url: https://michaelangelogooden.github.io/payroll-gpt-plugin/
 paths:
   /process:
     post:
