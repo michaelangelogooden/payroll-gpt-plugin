@@ -1,3 +1,10 @@
-git add middleware.py
-git commit -m "Removed invalid syntax from middleware.py"
-git push origin main
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Middleware API is running!"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
