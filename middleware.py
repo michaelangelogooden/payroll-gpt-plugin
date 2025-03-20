@@ -1,3 +1,3 @@
-git mv src/middleware.py .
-git commit -m "Moved middleware.py to root directory"
+git add middleware.py
+git commit -m "Removed invalid syntax from middleware.py"
 git push origin main
